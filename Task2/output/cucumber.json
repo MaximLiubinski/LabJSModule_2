@@ -1,0 +1,98 @@
+[
+  {
+    "description": "  I want be able to click download and get info about app",
+    "elements": [
+      {
+        "id": "download-page;validation-details",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Validation details",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on Home page",
+            "result": {
+              "status": "passed",
+              "duration": 4941729504
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I click Main button",
+            "result": {
+              "status": "passed",
+              "duration": 1285777009
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Page title should be \"BMW Club Belarus e.V. / Белорусский Клуб БМВ | Белорусский Клуб БМВ. Клубная жизнь, активный отдых, техническая информация, новости.\"",
+            "result": {
+              "status": "passed",
+              "duration": 8567631
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:44"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I click Forum button",
+            "result": {
+              "status": "passed",
+              "duration": 2823407756
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Page title should be \"BMW Club Belarus • Белорусский Клуб БМВ\"",
+            "result": {
+              "status": "passed",
+              "duration": 9636198
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:44"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@important",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "download-page",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "Download page",
+    "tags": [
+      {
+        "name": "@important",
+        "line": 1
+      }
+    ],
+    "uri": "C:\\Users\\Максим\\WebstormProjects\\Task2\\features\\validation.download.feature"
+  }
+]
